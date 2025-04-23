@@ -19,5 +19,5 @@ int largest_prime_factor(long n) {
       n = n / divisor;
     }
   }
-  return divisor;
+  return n;
 }
